@@ -1,0 +1,63 @@
+.container{
+display: flex;
+justify-content: space-between;
+}
+
+.comp-right{
+    margin: -10px;
+}
+
+.container1{
+    padding-left: 150px;
+    font-family: Helvetica, Arial;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+input{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(236, 235, 235);
+    margin-bottom: 10px;
+}
+
+.button-login{
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: blueviolet;
+    color:white;
+}
+
+.button-login:hover{
+    cursor: pointer;
+    background-color: rgb(87, 13, 157);
+}
+
+.class1{
+    color: blueviolet;
+}
+
+.class1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.forgot{
+    margin-top: 30px;
+    
+}
+
+.button-google{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
